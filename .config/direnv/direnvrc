@@ -1,0 +1,4 @@
+layout_venv() {
+    export VIRTUAL_ENV="$PWD/.venv"
+    PATH_add "$VIRTUAL_ENV/bin"
+}
